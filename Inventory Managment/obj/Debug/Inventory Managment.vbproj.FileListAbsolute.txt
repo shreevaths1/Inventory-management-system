@@ -1,0 +1,44 @@
+D:\Inventory Managment\Inventory Managment\bin\Debug\Inventory Managment.exe.config
+D:\Inventory Managment\Inventory Managment\bin\Debug\Inventory Managment.exe
+D:\Inventory Managment\Inventory Managment\bin\Debug\Inventory Managment.pdb
+D:\Inventory Managment\Inventory Managment\bin\Debug\Inventory Managment.xml
+D:\Inventory Managment\Inventory Managment\obj\Debug\Inventory_Managment.Product_Record.resources
+D:\Inventory Managment\Inventory Managment\obj\Debug\Inventory_Managment.Resources.resources
+D:\Inventory Managment\Inventory Managment\obj\Debug\Inventory Managment.vbproj.GenerateResource.cache
+D:\Inventory Managment\Inventory Managment\obj\Debug\Inventory Managment.vbproj.CoreCompileInputs.cache
+D:\Inventory Managment\Inventory Managment\obj\Debug\Inventory Managment.exe
+D:\Inventory Managment\Inventory Managment\obj\Debug\Inventory Managment.xml
+D:\Inventory Managment\Inventory Managment\obj\Debug\Inventory Managment.pdb
+D:\Inventory Managment\Inventory Managment\obj\Debug\Inventory_Managment.Admin.resources
+D:\Inventory Managment\Inventory Managment\obj\Debug\Inventory_Managment.Registration.resources
+D:\Inventory Managment\Inventory Managment\obj\Debug\Inventory_Managment.Login.resources
+D:\Inventory Managment\Inventory Managment\obj\Debug\Inventory_Managment.Product_Entry.resources
+D:\Inventory Managment\Inventory Managment\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Inventory Managment\Inventory Managment\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\Inventory Managment\Inventory Managment\bin\Debug\System.Buffers.dll
+D:\Inventory Managment\Inventory Managment\bin\Debug\System.Memory.dll
+D:\Inventory Managment\Inventory Managment\bin\Debug\System.Numerics.Vectors.dll
+D:\Inventory Managment\Inventory Managment\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Inventory Managment\Inventory Managment\bin\Debug\System.Text.Encodings.Web.dll
+D:\Inventory Managment\Inventory Managment\bin\Debug\System.Text.Json.dll
+D:\Inventory Managment\Inventory Managment\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Inventory Managment\Inventory Managment\bin\Debug\System.ValueTuple.dll
+D:\Inventory Managment\Inventory Managment\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Inventory Managment\Inventory Managment\bin\Debug\System.Buffers.xml
+D:\Inventory Managment\Inventory Managment\bin\Debug\System.Memory.xml
+D:\Inventory Managment\Inventory Managment\bin\Debug\System.Numerics.Vectors.xml
+D:\Inventory Managment\Inventory Managment\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Inventory Managment\Inventory Managment\bin\Debug\System.Text.Encodings.Web.xml
+D:\Inventory Managment\Inventory Managment\bin\Debug\System.Text.Json.xml
+D:\Inventory Managment\Inventory Managment\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Inventory Managment\Inventory Managment\bin\Debug\System.ValueTuple.xml
+D:\Inventory Managment\Inventory Managment\obj\Debug\Inventory Managment.vbproj.CopyComplete
+D:\Inventory Managment\Inventory Managment\obj\Debug\Inventory_Managment.Customer_Record.resources
+D:\Inventory Managment\Inventory Managment\obj\Debug\Inventory Managment.vbproj.AssemblyReference.cache
+D:\Inventory Managment\Inventory Managment\obj\Debug\Inventory_Managment.New_Order.resources
+D:\Inventory Managment\Inventory Managment\obj\Debug\Inventory_Managment.Sales_and_Invoice.resources
+D:\Inventory Managment\Inventory Managment\obj\Debug\Inventory_Managment.Supplier_Register.resources
+D:\Inventory Managment\Inventory Managment\obj\Debug\Inventory_Managment.View_Suppliers.resources
+D:\Inventory Managment\Inventory Managment\obj\Debug\Inventory_Managment.Sales_Entry.resources
+D:\Inventory Managment\Inventory Managment\obj\Debug\Inventory_Managment.Purchase_History.resources
+D:\Inventory Managment\Inventory Managment\obj\Debug\Inventory_Managment.Stock_Recieved.resources

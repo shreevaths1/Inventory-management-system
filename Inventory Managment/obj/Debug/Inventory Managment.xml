@@ -1,0 +1,351 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Inventory Managment
+</name>
+</assembly>
+<members>
+<member name="T:Inventory_Managment.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Inventory_Managment.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Inventory_Managment.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Inventory_Managment.CustomerDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inventory_Managment.CustomerDataSet.CUSTOMERDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inventory_Managment.CustomerDataSet.CUSTOMERRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inventory_Managment.CustomerDataSet.CUSTOMERRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inventory_Managment.CustomerDataSetTableAdapters.CUSTOMERTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inventory_Managment.CustomerDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inventory_Managment.CustomerDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Inventory_Managment.CustomerDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inventory_Managment.CustomerDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Inventory_Managment.CustomerDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inventory_Managment.CustomerDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Inventory_Managment.CustomerDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inventory_Managment.CustomerDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inventory_Managment.CustomerDataSetTableAdapters.TableAdapterManager.UpdateAll(Inventory_Managment.CustomerDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inventory_Managment.CustomerDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inventory_Managment.CustomerDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inventory_Managment.InvoiceDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inventory_Managment.InvoiceDataSet.DataTable1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inventory_Managment.InvoiceDataSet.DataTable1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inventory_Managment.InvoiceDataSet.DataTable1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inventory_Managment.InvoiceDataSetTableAdapters.DataTable1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inventory_Managment.InvoiceDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inventory_Managment.InvoiceDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Inventory_Managment.InvoiceDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inventory_Managment.InvoiceDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Inventory_Managment.InvoiceDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inventory_Managment.InvoiceDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Inventory_Managment.InvoiceDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inventory_Managment.InvoiceDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inventory_Managment.InvoiceDataSetTableAdapters.TableAdapterManager.UpdateAll(Inventory_Managment.InvoiceDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inventory_Managment.InvoiceDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inventory_Managment.InvoiceDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inventory_Managment.ProductDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inventory_Managment.ProductDataSet.PRODUCTDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inventory_Managment.ProductDataSet.PRODUCTRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inventory_Managment.ProductDataSet.PRODUCTRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inventory_Managment.ProductDataSetTableAdapters.PRODUCTTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inventory_Managment.ProductDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inventory_Managment.ProductDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Inventory_Managment.ProductDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inventory_Managment.ProductDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Inventory_Managment.ProductDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inventory_Managment.ProductDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Inventory_Managment.ProductDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inventory_Managment.ProductDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inventory_Managment.ProductDataSetTableAdapters.TableAdapterManager.UpdateAll(Inventory_Managment.ProductDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inventory_Managment.ProductDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inventory_Managment.ProductDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inventory_Managment.PurchasedDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inventory_Managment.PurchasedDataSet.PURCHASE_ORDERDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inventory_Managment.PurchasedDataSet.PURCHASE_ORDERRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inventory_Managment.PurchasedDataSet.PURCHASE_ORDERRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inventory_Managment.PurchasedDataSetTableAdapters.PURCHASE_ORDERTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inventory_Managment.PurchasedDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inventory_Managment.PurchasedDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Inventory_Managment.PurchasedDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inventory_Managment.PurchasedDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Inventory_Managment.PurchasedDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inventory_Managment.PurchasedDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Inventory_Managment.PurchasedDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inventory_Managment.PurchasedDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inventory_Managment.PurchasedDataSetTableAdapters.TableAdapterManager.UpdateAll(Inventory_Managment.PurchasedDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inventory_Managment.PurchasedDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inventory_Managment.PurchasedDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Inventory_Managment.SupplierDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Inventory_Managment.SupplierDataSet.SUPPLIERDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Inventory_Managment.SupplierDataSet.SUPPLIERRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Inventory_Managment.SupplierDataSet.SUPPLIERRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Inventory_Managment.SupplierDataSetTableAdapters.SUPPLIERTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Inventory_Managment.SupplierDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Inventory_Managment.SupplierDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Inventory_Managment.SupplierDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Inventory_Managment.SupplierDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Inventory_Managment.SupplierDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Inventory_Managment.SupplierDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Inventory_Managment.SupplierDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Inventory_Managment.SupplierDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Inventory_Managment.SupplierDataSetTableAdapters.TableAdapterManager.UpdateAll(Inventory_Managment.SupplierDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Inventory_Managment.SupplierDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Inventory_Managment.SupplierDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
